@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <ImageView
+                android:id="@+id/skalaCompany_jpg"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:onClick="openweb"
+                android:scaleType="fitCenter"
+                android:src="@drawable/skalacompany" />
+
+
+            <TextView
+                android:id="@+id/companyExplained_Text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/skalaCompany_jpg"
+                android:paddingTop="8dp"
+                android:text="Video Subtitling and Translation"
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/companyExplainedContinue_Text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/companyExplained_Text"
+                android:shadowColor="#000000"
+                android:text="Since 2003"
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:id="@+id/adressInfo"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/companyExplainedContinue_Text"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/adressTitle_Text"
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="8dp"
+                    android:paddingLeft="8dp"
+                    android:paddingRight="8dp"
+                    android:paddingTop="8dp"
+                    android:shadowColor="#000000"
+                    android:shadowDx="10"
+                    android:shadowDy="10"
+                    android:shadowRadius="20"
+                    android:text="Adress:"
+                    android:textColor="@android:color/black"
+                    android:textSize="12sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/actualAdress_Text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="24dp"
+                    android:paddingBottom="8dp"
+                    android:paddingLeft="8dp"
+                    android:paddingRight="8dp"
+                    android:paddingTop="8dp"
+                    android:shadowColor="#000000"
+                    android:shadowDx="10"
+                    android:shadowDy="10"
+                    android:shadowRadius="20"
+                    android:text="Albay Sadri Alantar Sk. No:32 Meşrutiyet Mahallesi 34363 Şişli/
+İstanbul/Turkey"
+                    android:textColor="@android:color/black"
+                    android:textSize="12sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/telInfo"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/adressInfo"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/telTitle_Text"
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="8dp"
+                    android:paddingLeft="8dp"
+                    android:paddingRight="8dp"
+                    android:paddingTop="8dp"
+                    android:shadowColor="#000000"
+                    android:shadowDx="10"
+                    android:shadowDy="10"
+                    android:shadowRadius="20"
+                    android:text="Tel:"
+                    android:textColor="@android:color/black"
+                    android:textSize="12sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/actualTelNo_Text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="24dp"
+                    android:paddingBottom="8dp"
+                    android:paddingLeft="8dp"
+                    android:paddingRight="8dp"
+                    android:paddingTop="8dp"
+                    android:shadowColor="#000000"
+                    android:shadowDx="10"
+                    android:shadowDy="10"
+                    android:shadowRadius="20"
+                    android:text="+90 532-305-35-70"
+                    android:textColor="@android:color/black"
+                    android:textSize="12sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/webInfo"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/telInfo"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/webAdressTitle_Text"
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="8dp"
+                    android:paddingLeft="8dp"
+                    android:paddingRight="8dp"
+                    android:paddingTop="8dp"
+                    android:shadowColor="#000000"
+                    android:shadowDx="10"
+                    android:shadowDy="10"
+                    android:shadowRadius="20"
+                    android:text="Web:"
+                    android:textColor="@android:color/black"
+                    android:textSize="12sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/WebAdress_Text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="24dp"
+                    android:onClick="openweb"
+                    android:paddingBottom="8dp"
+                    android:paddingLeft="8dp"
+                    android:paddingRight="8dp"
+                    android:paddingTop="8dp"
+                    android:shadowColor="#000000"
+                    android:shadowDx="10"
+                    android:shadowDy="10"
+                    android:shadowRadius="20"
+                    android:text="www.skalafilm.com"
+                    android:textColor="@android:color/black"
+                    android:textSize="12sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/emailInfo"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/webInfo"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/emailTitle_Text"
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="8dp"
+                    android:paddingLeft="8dp"
+                    android:paddingRight="8dp"
+                    android:paddingTop="8dp"
+                    android:shadowColor="#000000"
+                    android:shadowDx="10"
+                    android:shadowDy="10"
+                    android:shadowRadius="20"
+                    android:text="email:"
+                    android:textColor="@android:color/black"
+                    android:textSize="12sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/emailAdress_Text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="24dp"
+                    android:onClick="contact"
+                    android:paddingBottom="8dp"
+                    android:paddingLeft="8dp"
+                    android:paddingRight="8dp"
+                    android:paddingTop="8dp"
+                    android:shadowColor="#000000"
+                    android:shadowDx="10"
+                    android:shadowDy="10"
+                    android:shadowRadius="20"
+                    android:text="contact@skalafilm.com"
+                    android:textColor="@android:color/black"
+                    android:textSize="12sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/skalaLogo_jpg"
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:layout_below="@id/skalaCompany_jpg"
+                android:layout_marginTop="260dp"
+                android:adjustViewBounds="true"
+                android:onClick="openweb"
+                android:paddingBottom="0dp"
+                android:paddingTop="0dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/skalalogo" />
+
+
+        </RelativeLayout>
+
+
+    </ScrollView>
